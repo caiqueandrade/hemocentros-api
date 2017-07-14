@@ -6,7 +6,7 @@ var app = express();
 
 app.use(bodyParser.json());
 
-app.use(expressMongoDb('mongodb://174.138.68.160:27017/hemocentros-api'));
+app.use(expressMongoDb('mongodb://localhost/hemocentros-api'));
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
