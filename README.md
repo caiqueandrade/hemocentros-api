@@ -7,9 +7,7 @@ Retorna um JSON contendo todos os hemocentros e as suas informações.
 * #### URL
   /hemocentros
 * #### Method
-  ```text
-  GET
-  ```  
+  ``` GET ```  
 * #### URL Params
   None
 * #### Data Params
@@ -18,7 +16,10 @@ Retorna um JSON contendo todos os hemocentros e as suas informações.
   * **Code**: 200
   * **Content:**
   ```json
-    [ { "_id": "59173d676b591f17111328ba", "nome": "Pró Sangue Faria Lima", "endereco": "Av. Faria Lima, 1020 - Pinheiros - São Paulo", "lat": "-23.6174120", "lng": "-46.6376067" }, { "_id": "5968371472b0791b37dba19e", "nome": "Pró Sangue Paulista", "endereco": "Av. Paulista, 517 - Bela Vista - São Paulo", "lat": "-23.5658403", "lng": "-46.6778561" } ]
+    [ { "_id": "59173d676b591f17111328ba", "nome": "Pró Sangue Faria Lima",
+    "endereco": "Av. Faria Lima, 1020 - Pinheiros - São Paulo", "lat": "-23.6174120", "lng": "-46.6376067" },
+    { "_id": "5968371472b0791b37dba19e", "nome": "Pró Sangue Paulista",
+    "endereco": "Av. Paulista, 517 - Bela Vista - São Paulo", "lat": "-23.5658403", "lng": "-46.6778561" } ]
     ```
 * #### Error Response
   * **Code**: 503 - Service Unavailable
@@ -38,13 +39,11 @@ Retorna um JSON contendo apenas a latitude e a longitude do hemocentro especific
 * #### URL
   /hemocentros/coordenadas/:id
 * #### Method
-  ```text
-  GET
-  ```
+  ``` GET ```
 * #### URL Params
 	##### Required:
     ```text
-    id=[_id]
+    id=[alphanumeric]
     ```
 * #### Data Params
   None
