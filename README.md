@@ -16,10 +16,7 @@ Retorna um JSON contendo todos os hemocentros e as suas informações.
   * **Code**: 200
   * **Content:**
   ```json
-    [ { "_id": "59173d676b591f17111328ba", "nome": "Pró Sangue Faria Lima",
-    "endereco": "Av. Faria Lima, 1020 - Pinheiros - São Paulo", "lat": "-23.6174120", "lng": "-46.6376067" },
-    { "_id": "5968371472b0791b37dba19e", "nome": "Pró Sangue Paulista",
-    "endereco": "Av. Paulista, 517 - Bela Vista - São Paulo", "lat": "-23.5658403", "lng": "-46.6778561" } ]
+    [{"_id":"596be20c0861a43df32a583d","nome":"Hospital do Servidor Público Municipal","endereco":{"logradouro":"Rua","nomeLogradouro":"Castro Alves","numero":"60","bairro":"Aclimação","localidade":"São Paulo","estado":"SP"},"cep":"01532-001","lat":"-23.5738780","lng":"-46.6325440","telefone":["(11) 3277-5303"],"site":"www.colsan.org.br"},{"_id":"596bebbf0861a43df32a583e","nome":"Beneficência Portuguesa de São Paulo","endereco":{"logradouro":"Rua","nomeLogradouro":"Maestro Cardim","numero":"1041","bairro":"Bela Vista","localidade":"São Paulo","estado":"SP"},"cep":"01323-900","lat":"-23.5667749","lng":"-46.6413033","telefone":["(11) 3505-1150","3505-1158"],"site":"www.bsangue@bpsp.org.br"} ]
     ```
 * #### Error Response
   * **Code**: 503 - Service Unavailable
